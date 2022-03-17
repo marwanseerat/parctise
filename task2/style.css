@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(112, 100, 100);}
+
+.maincontainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.maincontainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+ .image{
+     position: relative;
+     width: 400px;
+    margin: 10px;
+    
+ }  
+ 
+ .img1{
+     display: block;
+     width: 100%;
+    border-radius: 50%;
+    
+ }
+
+ .overlly{
+    border-radius: 50%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 400px;
+     height: 400px;
+     background:rgba(0,0,0, 0.6);
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     opacity: 0;
+
+ }
+ .overlly:hover{
+     opacity: 1;
+ }
+
+ .title{
+     font-size: small;
+ }
+ .pargraph{
+     margin-left: 5px;
+ }
+                                    /* ******************************************************************************************************************** */
+
+.img2{
+    display: block;
+    width: 100%;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+   
+   
+}
+
+.overlly2{
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background:rgba(0,0,0, 0.6);
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     opacity: 0;
+
+ }
+
+ .overlly2:hover{
+    opacity: 1;
+}
+
+
+                    /* ******************************************************************************************************************** */
+
+
+                    .img3{
+                        display: block;
+                        width: 100%;
+                        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+                       
+                       
+                    }
+
+                    .overlly3{
+                        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+                         position: absolute;
+                         left: 0;
+                         top: 0;
+                         width: 100%;
+                         height: 100%;
+                         background:rgba(0,0,0, 0.6);
+                         color: white;
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: center;
+                         align-items: center;
+                    
+                         opacity: 0;
+                    
+                     }
+  
+                     .overlly3:hover{
+                        opacity: 1;
+                    }
